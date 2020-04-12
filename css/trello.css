@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato';
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+header{
+  top: 0px;
+  height: 75px;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  transition: background-color 1s ease,
+              box-shadow 1s ease;
+}
+
+#logo{
+height: 35px;
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+#header-title{
+  float: left;
+  color: white;
+  left: 15px;
+  font-family: 'Pacifico';
+  font-size: 35px;
+  line-height: 75px;
+}
+
+#header-login, #header-signup{
+  height: fit-content;
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+#header-signup{
+  color: rgba(46,136,209,1);
+  background-color:white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#header-right{
+  float: right;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+#header-login:hover{
+  text-decoration: underline;
+}
+
+#top-section{
+  top: 0px;
+  position: relative;
+  min-height: 700px;
+  background: rgb(125,86,199);
+  background: linear-gradient(90deg, rgba(125,86,199,1) 0%, rgba(46,136,209,1) 100%);
+}
+
+#top-top{
+  position: relative;
+  left: 200px;
+  top: 150px;
+}
+
+p{
+  margin: 0;
+}
+
+ .top-title{
+   position: relative;
+   color: white;
+   word-break: keep-all;
+   font-size: 48px;
+   font-weight: 800;
+   margin-bottom: -30px;
+   width: 450px;
+ }
+
+ .top-content{
+   line-height: 1.3cm;
+   color: white;
+   position: relative;
+   font-size: 25px;
+   margin: 40px 0;
+   width: 450px;
+ }
+
+#top-mail{
+  padding: 15px;
+  border-radius: 5px;
+  width: 350px;
+  font-size: 25px;
+  outline: 0;
+  border: 0px;
+}
+
+#top-mail-button{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  outline: 0px;
+  border: 0px;
+  background-color: rgb(173, 206, 112);
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+#top-mail-button:hover{
+  background-color: rgb(162, 175, 103);
+  transition: background-color 0.5s ease;
+}
+
+#top-img{
+  position: absolute;
+  top: -80px;
+  width: 400px;
+  right: 420px;
+}
+
+.back {
+  background-color: rgba(81,72,255,1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 1s ease,
+              box-shadow 1s ease;
+}
+
+#collaboration{
+  display: flex;
+  padding-top: 50px;
+}
+
+#collab{
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#collab-left, #collab-right{
+  margin: 0px 15px;
+}
+
+.section-title{
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: rgb(0,0,0);
+}
+
+.section-contents {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: 445px;
+  line-height: 30px;
+  color: rgb(0,0,0);
+}
+
+#collab-btn {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: block;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: rgb(94, 153, 201);
+}
+
+#collab-right-list {
+  min-width: 1000px;
+  overflow: auto;
+  display: flex;
+}
+
+#collab-right{
+  width: 500px;
+  background: linear-gradient(#ab92d3, #8688d1);
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+  padding: 15px;
+}
+
+#collab-right-header{
+  color: white;
+  margin-bottom: 10px;
+}
+
+#collab-right-header h3 {
+  padding: 10px;
+  background-color: rgb(238, 207, 233);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+h5, h3 {
+  margin: 0px;
+}
+
+.collab-list h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.collab-list{
+  background-color: beige;
+  padding: 8px;
+  border-radius: 5px;
+  color: black;
+  margin-right: 10px;
+  height: fit-content;
+}
+
+.card-content {
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.card-content-bar{
+  height: 7px;
+  width: 30px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.card-bottom-text{
+  background-color: ivory;
+  font-weight: 400;
+  font-size: 14px; 
+  margin: 0 0 5px 5px;
+}
+
+.description{
+  margin-top: 5px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: violet;
+}
+
+.purple{
+  background-color: yellow;
+}
+#team-left{
+  position: relative;
+  padding: 0px 4px;
+  width: fit-content;
+}
+
+#phone{
+  box-shadow: 0px 0px 15px rgb(153, 147, 175);
+  position: relative;
+  width: 275px;
+  padding: 10px;
+  padding-bottom: 0px;
+  background: -webkit-gradient(linear, left top, right top, from(#75a1ff), to(#f4e2ff));
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#phone-top{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.large-circle{
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.middle-circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.large-bar {
+  height: 15px;
+  width: 60px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#phone-content{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+#phone-content-top{
+  background-color: rgb(37, 63, 180);
+  position: relative;
+  padding: 15px 10px;
+}
+
+#phone-content-top span{
+  color: white;
+}
+
+.float-left{
+  position: relative;
+  left: 0px;
+}
+
+.float-right{
+  position: absolute;
+  right: 10px;
+}
+
+#phone-content-bottom{
+  display: flex;
+  padding-bottom: 0px;
+  padding: 10px;
+  background: linear-gradient(#978cff, #fff494);
+}
+
+.phone-lists{
+  margin-right: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(238, 246, 255);
+  width: 175px;
+  padding: 0px 10px;
+}
+
+.phone-title{
+  padding: 10px 0px;
+  color: black;
+}
+
+.phone-list{
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.phone-list:last-of-type{
+  margin-bottom: 0px;
+}
+
+.list-img-box {
+  width: 175px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.list-img-box img {
+  position: relative;
+  width: 175px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.phone-list span{
+  font-size: 13px;
+  padding: 8px;
+  display: block;
+}
+
+.left-top-bar{
+  top: 80px;
+  left: 0px;
+  z-index: 1;
+  width: 4px;
+  background-color: rgb(19, 29, 85);
+  height: 39px;
+  position: absolute;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.left-bottom-bar{
+  top: 200px;
+  left: 0px;
+  z-index: 1;
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: rgb(19, 29, 85);
+}
+
+.right-bar{
+  top: 140px;
+  right: 0px;
+  z-index: 1;
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: rgb(19, 29, 85);  
+}
+
+#team {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+#team-right{
+  margin-left: 50px;
+}
+
+#teams{
+  margin-top: 100px;
+  display: flex;
+}
+
